@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import argparse
 import json
@@ -114,7 +114,7 @@ def update_rec(email, key, zoneid, recid, rec):
     except:
         return False
 
-if __name__ == "__main__":
+def main():
     exit_code = 0
 
     # Start Argument Parser
