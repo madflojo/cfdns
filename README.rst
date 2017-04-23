@@ -50,7 +50,15 @@ List DNS records or a set of DNS records by calling the ``list`` action.
 
 **Examples:**
 
-``shell   $ cfdns list email@example.com 12345api   $ cfdns list email@example.com 12345api --name www.example.com   $ cfdns list email@example.com 12345api --name www.example.com --type A   $ cfdns list email@example.com 12345api --name www.example.com --type A --content 10.0.0.1   $ cfdns list email@example.com 12345api --type A   $ cfdns list email@example.com 12345api --type A --content 10.0.0.1   $ cfdns list email@example.com 12345api --content 10.0.0.1``
+.. code:: shell
+
+    $ cfdns list email@example.com 12345api
+    $ cfdns list email@example.com 12345api --name www.example.com
+    $ cfdns list email@example.com 12345api --name www.example.com --type A
+    $ cfdns list email@example.com 12345api --name www.example.com --type A --content 10.0.0.1
+    $ cfdns list email@example.com 12345api --type A
+    $ cfdns list email@example.com 12345api --type A --content 10.0.0.1
+    $ cfdns list email@example.com 12345api --content 10.0.0.1
 
 Adding a Record
 ~~~~~~~~~~~~~~~
