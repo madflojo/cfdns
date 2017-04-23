@@ -1,3 +1,5 @@
+# cfdns
+
 CLI tool for manipulating DNS of CloudFlare hosted domains. This tool uses CloudFlare's v4 API to **add**, **remove**,
 **list**, or **modify** DNS records.
 
@@ -103,7 +105,7 @@ $ cfdns.py modify <email> <api_key> <domain> <old_record_content> <new_record_ty
 
 You can add the `--name` flag to restrict updates to only the named record. By default all records with the matching "old content" will be updated.
 
-**Example:**
+**Examples:**
 
 ```shell
 $ cfdns.py modify email email@example.com 12345api example.com 10.0.0.1 A 10.0.0.2
