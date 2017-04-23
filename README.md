@@ -1,5 +1,3 @@
-# cfdns
-
 CLI tool for manipulating DNS of CloudFlare hosted domains. This tool uses CloudFlare's v4 API to **add**, **remove**,
 **list**, or **modify** DNS records.
 
