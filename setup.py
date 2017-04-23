@@ -4,14 +4,14 @@ from setuptools import setup
 
 def get_long_description():
     try:
-        with open('README.md', 'r') as f:
+        with open('README.rst', 'r') as f:
             return f.read()
     except IOError:
         return ''
 
 setup(
     name="cfdns",
-    version="0.1.0",
+    version="0.1.1",
     author='madflojo',
     author_email='ben@bencane.com',
     description='Command line tool for manipulating DNS of CloudFlare hosted domains',
